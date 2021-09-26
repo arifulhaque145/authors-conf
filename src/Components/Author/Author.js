@@ -3,8 +3,10 @@ import "./Author.css";
 
 function Author(props) {
   const { name, birth_day, age, country, lang, cost, img } = props.data;
+  const okClick = props.newClick;
+
   return (
-    <div className="card__container">
+    <div className="col-3 card__container shadow-sm p-3 mb-5 bg-white rounded">
       <div>
         <img src={img} alt={name} />
       </div>
@@ -17,11 +19,13 @@ function Author(props) {
       </div>
       <div>
         <p>Cost: {cost}</p>
-        <button className="btn btn-info">Add to Cart</button>
+        <button className="btn btn-info" onClick={() => okClick(name)}>
+          Add to Cart
+        </button>
       </div>
       <div className="icons">
-        <i class="fab fa-facebook-square"></i>
-        <i class="fab fa-twitter"></i>
+        <i className="fab fa-facebook-square"></i>
+        <i className="fab fa-twitter"></i>
       </div>
     </div>
   );
