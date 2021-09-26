@@ -2,7 +2,7 @@
   {
     "key": "1",
     "name": "Anisul Hoque",
-    "birth_day": "March 4, 1965",
+    "birth_day": "Mar 4, 1965",
     "age": "56",
     "country": "Bangladesh",
     "best_book": "Maa",
@@ -14,7 +14,7 @@
   {
     "key": "2",
     "name": "Kaiser Haq",
-    "birth_day": "December 7, 1950",
+    "birth_day": "Dec 7, 1950",
     "age": "70",
     "country": "Bangladesh",
     "best_book": "The wonders of Vilayet",
@@ -25,8 +25,8 @@
   },
   {
     "key": "3",
-    "name": "Aid al-Qarni",
-    "birth_day": "January 1, 1959",
+    "name": "Aid Al-Qarni",
+    "birth_day": "Jan 1, 1959",
     "age": "62",
     "country": "Saudi Arabia",
     "best_book": "Don't Be Sad",
@@ -37,8 +37,8 @@
   },
   {
     "key": "4",
-    "name": "Mohamad al-Arefe",
-    "birth_day": "July 15, 1970",
+    "name": "Al-Arefe",
+    "birth_day": "Jul 15, 1970",
     "age": "51",
     "country": "Saudi Arabia",
     "best_book": "Enjoy Your Life",
@@ -49,8 +49,8 @@
   },
   {
     "key": "5",
-    "name": "Muhammad Taqi Usmani",
-    "birth_day": "October 5, 1943",
+    "name": "Taqi Usmani",
+    "birth_day": "Oct 5, 1943",
     "age": "77",
     "country": "India",
     "best_book": "Easy Good Deeds",
@@ -62,7 +62,7 @@
   {
     "key": "6",
     "name": "Tariq Jamil",
-    "birth_day": "October 1, 1953",
+    "birth_day": "Oct 1, 1953",
     "age": "67",
     "country": "Pakistan",
     "best_book": "Jannat Ke Haseen Manazir",
@@ -74,7 +74,7 @@
   {
     "key": "7",
     "name": "Ayman Sadiq",
-    "birth_day": "September 2, 1992",
+    "birth_day": "Sep 2, 1992",
     "age": "29",
     "country": "Bangladesh",
     "best_book": "Never Stop Learning",
@@ -86,7 +86,7 @@
   {
     "key": "8",
     "name": "Eyad Qunaibi",
-    "birth_day": "October 22, 1975",
+    "birth_day": "Oct 22, 1975",
     "age": "45",
     "country": "Kuwait",
     "best_book": "Mat'atut Tadabbur",
@@ -98,7 +98,7 @@
   {
     "key": "9",
     "name": "Simon Sinek",
-    "birth_day": "October 9, 1973",
+    "birth_day": "Oct 9, 1973",
     "age": "47",
     "country": "United Kingdom",
     "best_book": "Start With Why",
@@ -110,7 +110,7 @@
   {
     "key": "10",
     "name": "Robert Kiyosaki",
-    "birth_day": "April 8, 1947",
+    "birth_day": "Apr 8, 1947",
     "age": "74",
     "country": "United States",
     "best_book": "Rich Dad Poor Dad",
@@ -122,7 +122,7 @@
   {
     "key": "11",
     "name": "Brian Tracy",
-    "birth_day": "January 5, 1944",
+    "birth_day": "Jan 5, 1944",
     "age": "77",
     "country": "Canada",
     "best_book": "Time Management",
@@ -146,7 +146,7 @@
   {
     "key": "13",
     "name": "Stephen King",
-    "birth_day": "September 21, 1947",
+    "birth_day": "Sep 21, 1947",
     "age": "74",
     "country": "United States",
     "best_book": "Pet Sematary",
@@ -158,7 +158,7 @@
   {
     "key": "14",
     "name": "James Dashner",
-    "birth_day": "November 26, 1972",
+    "birth_day": "Nov 26, 1972",
     "age": "48",
     "country": "United States",
     "best_book": "The Maze Runner",
@@ -170,7 +170,7 @@
   {
     "key": "15",
     "name": "Gary Chapman",
-    "birth_day": "January 10, 1938",
+    "birth_day": "Jan 10, 1938",
     "age": "83",
     "country": "United States",
     "best_book": "The Five Love Languages",
