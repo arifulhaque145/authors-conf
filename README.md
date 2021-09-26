@@ -1,11 +1,7 @@
 # Authors conference website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This website is build for those who are willing to talk with there favourite authors [authors' conference website](https://authors-conf.netlify.app/).
 
-## Available Scripts
+## Features
 
 In the project directory, you can run:
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
