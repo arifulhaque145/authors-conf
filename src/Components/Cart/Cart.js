@@ -8,22 +8,21 @@ function Cart(props) {
     height = 150;
   data.map((item) => {
     total += parseInt(item.cost);
-    height += 25;
+    height += 43;
     cart.style.height = `${height}px`;
   });
 
   return (
     <div
       id="cart"
-      className="cart__container stic shadow-sm p-3 mb-5 bg-white rounded"
+      className="cart__container stic shadow-sm p-3 mb-5 rounded text-uppercase"
     >
-      <h4>Ordered People {data.length}</h4>
-      <ol>
-        {data.map((item) => (
-          <li>{item.name}</li>
-        ))}
-      </ol>
-      <h3>Total Cost: ${total}</h3>
+      <h5>Your Orders: {data.length}</h5>
+      <hr />
+      {data.map((item) => (
+        <div className="listItem">{item.name}</div>
+      ))}
+      <h4 style={{color: 'red', marginTop: "20px"}}>Total Cost: ${total}</h4>
     </div>
   );
 }

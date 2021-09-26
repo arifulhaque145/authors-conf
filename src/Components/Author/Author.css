@@ -4,6 +4,11 @@ img {
   border-radius: 50%;
 }
 
+.full_details {
+    height: 200px;
+    display: flex;
+}
+
 .card__container {
   background-color: antiquewhite;
   text-align: center;

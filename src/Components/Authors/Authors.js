@@ -18,13 +18,15 @@ function Authors() {
   }, []);
 
   return (
-    <div className="full__container">
-      <div className="row" style={{ justifyContent: "center"}}>
-        {data.map((item) => (
-          <Author key={item.key} data={item} newClick={eventHandle} />
-        ))}
+    <div className="parent__container">
+      <div className="full__container">
+        <div className="row" style={{ justifyContent: "center" }}>
+          {data.map((item) => (
+            <Author key={item.key} data={item} newClick={eventHandle} />
+          ))}
+        </div>
+        <Cart text={names} />
       </div>
-      <Cart text={names} />
     </div>
   );
 }
