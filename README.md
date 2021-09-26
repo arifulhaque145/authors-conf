@@ -4,4 +4,8 @@ This website is build for those who are willing to talk with there favourite aut
 
 ## Features
 
-In the project directory, you can run:
+The main features of this website is given:
+
+- Quickly find your favourite authors
+- To calculate your total cost
+- Flexible to navigate
