@@ -1,5 +1,12 @@
 .cart__container {
-    border: 1px solid black;
-    padding: 20px;
-    margin-top: 15px;
+  height: 150px;
+  border: 1px solid rgba(168, 167, 167, 0.979);
+  padding: 20px;
+  margin-top: 15px;
+}
+
+.stic {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
 }
