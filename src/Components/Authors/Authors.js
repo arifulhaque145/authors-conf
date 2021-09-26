@@ -6,16 +6,11 @@ import "./Authors.css";
 function Authors() {
   const [names, setnames] = useState([]);
   const [data, setdata] = useState([]);
+  const eventHandle = (name) => {setnames(name)};
 
   fetch("./authors.json")
     .then((res) => res.json())
     .then((newData) => setdata(newData));
-
-  const eventHandle = (name) => {
-    setnames(name);
-  };
-
-  console.log(names);
 
   return (
     <div className="full__container">
@@ -24,7 +19,7 @@ function Authors() {
           <Author key={item.key} data={item} newClick={eventHandle} />
         ))}
       </div>
-      <Cart />
+      <Cart text={names} />
     </div>
   );
 }

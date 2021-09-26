@@ -1,11 +1,13 @@
-import React from 'react'
+import React from "react";
 
-function Cart() {
-    return (
-      <div style={{ backgroundColor: "red" }}>
-        <h1>Hello</h1>
-      </div>
-    );
+function Cart(props) {
+  return (
+    <div style={{ backgroundColor: "red" }}>
+      {
+        props.text.map(item => <li>{item}</li>)
+      }
+    </div>
+  );
 }
 
-export default Cart
+export default Cart;
