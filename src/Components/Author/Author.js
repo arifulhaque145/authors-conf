@@ -10,22 +10,32 @@ function Author(props) {
       <div>
         <img src={img} alt={name} />
       </div>
-      <div>
-        <p>name: {name}</p>
-        <p>birthday: {birth_day}</p>
-        <p>age: {age}</p>
-        <p>country: {country}</p>
-        <p>language: {lang}</p>
+      <div className="detailsList">
+        <li>
+          <b>Name:</b> {name}
+        </li>
+        <li>
+          <b>Birthday:</b> {birth_day}
+        </li>
+        <li>
+          <b>Age:</b> {age}
+        </li>
+        <li>
+          <b>Country:</b> {country}
+        </li>
+        <li>
+          <b>Language:</b> {lang}
+        </li>
       </div>
       <div>
-        <p>Cost: {cost}</p>
-        <button className="btn btn-info" onClick={() => okClick(name)}>
-          Add to Cart
+        <p style={{ fontSize: "22px", fontWeight: "800" }}>Cost: ${cost}</p>
+        <button className="btn btn-info" onClick={() => okClick(props.data)}>
+          Order Now
         </button>
       </div>
       <div className="icons">
-        <i className="fab fa-facebook-square"></i>
-        <i className="fab fa-twitter"></i>
+        <i className="p-2 h3 fab fa-facebook-square"></i>
+        <i className="p-2 h3 fab fa-twitter"></i>
       </div>
     </div>
   );

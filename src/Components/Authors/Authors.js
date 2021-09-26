@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Author from "../Author/Author";
 import Cart from "../Cart/Cart";
 import "./Authors.css";
@@ -6,11 +6,16 @@ import "./Authors.css";
 function Authors() {
   const [names, setnames] = useState([]);
   const [data, setdata] = useState([]);
-  const eventHandle = (name) => {setnames(name)};
+  const eventHandle = (name) => {
+    const newNames = [...names, name];
+    setnames(newNames);
+  };
 
-  fetch("./authors.json")
-    .then((res) => res.json())
-    .then((newData) => setdata(newData));
+  useEffect(() => {
+    fetch("./authors.json")
+      .then((res) => res.json())
+      .then((newData) => setdata(newData));
+  }, []);
 
   return (
     <div className="full__container">
