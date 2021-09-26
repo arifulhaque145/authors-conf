@@ -1,9 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Author.css";
 
 function Author(props) {
-  const { name, birth_day, age, country, lang, cost, img } = props.data;
+  const {key, name, birth_day, age, country, lang, cost, img } = props.data;
   const okClick = props.newClick;
+
+  const onTimeClick = (key) => {
+    okClick(props.data);
+    document.getElementById(key).disabled = true;
+  };
 
   return (
     <div className="col-3 card__container shadow-sm p-3 mb-5 bg-white rounded">
@@ -29,7 +34,7 @@ function Author(props) {
       </div>
       <div>
         <p style={{ fontSize: "22px", fontWeight: "800" }}>Cost: ${cost}</p>
-        <button className="btn btn-info" onClick={() => okClick(props.data)}>
+        <button id={key} className="btn btn-info" onClick={() => onTimeClick(key)}>
           Order Now
         </button>
       </div>

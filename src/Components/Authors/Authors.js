@@ -19,7 +19,7 @@ function Authors() {
 
   return (
     <div className="full__container">
-      <div className="row" style={{ justifyContent: "center" }}>
+      <div className="row" style={{ justifyContent: "center"}}>
         {data.map((item) => (
           <Author key={item.key} data={item} newClick={eventHandle} />
         ))}

@@ -1,4 +1,5 @@
 import React from "react";
+import './Cart.css'
 
 function Cart(props) {
   const data = props.text;
@@ -6,11 +7,13 @@ function Cart(props) {
   data.map(item => total+=parseInt(item.cost))
 
   return (
-    <div style={{ backgroundColor: "red" }}>
-      <h1>Order</h1>
-      {
-        data.map(item =><li>{item.name}</li>)
-      }
+    <div className="cart__container">
+      <h4>Ordered People {data.length}</h4>
+      <ol>
+        {data.map((item) => (
+          <li>{item.name}</li>
+        ))}
+      </ol>
       <h3>Total Cost: ${total}</h3>
     </div>
   );
