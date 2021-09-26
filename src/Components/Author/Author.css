@@ -1,0 +1,23 @@
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.card__container {
+    width: 400px;
+    background-color: antiquewhite;
+    text-align: center;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.card__container:hover {
+    box-shadow: black;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+}
